@@ -6,6 +6,9 @@ body{
     margin: 0;
     display: block;
 }
+li{
+    margin-bottom: 0.1em;
+}
 @media screen and (min-width: 982px){
     .content{
         padding: 1.25em, 1.5em, 1.5em, 1.5em;
@@ -31,7 +34,7 @@ body{
     margin-top: 0;
     margin-left: 10em;
 }
-.content h1{
+.content h1, .content h2{
     font-size: 1.8em;
     margin-bottom: 0.25em;
     padding: 0;
@@ -40,12 +43,13 @@ body{
     margin: 0;
     border-bottom: 1px solid #a2a9b1;
     line-height: 1.375;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
 }
 .bodyContent{
     position: relative;
     z-index: 0;
     line-height: 1.6;
-    font-size: 0.85em;
+    font-size: 0.875em;
     color: #202122;
 }
 .infobox{
@@ -100,4 +104,16 @@ img{
     width: 7em;
     white-space: nowrap;
     text-align: left;
+}
+.bodyContent h2{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+.bodyContent h3{
+    font-weight: bold;
+    font-size: 1.15em;
+}
+.bodyContent ul, .bodyContent ol{
+    margin: 0.3em 0 0 1.5em;
+    padding: 0;
 }
