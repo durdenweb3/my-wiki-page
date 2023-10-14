@@ -1,0 +1,33 @@
+body{
+    background-color: #f6f6f6;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    display: block;
+}
+.content{
+    margin-top: -1px;
+    border: 1px solid #a7d7f9;
+    border-right-width: 0;
+    padding: 1em;
+    background-color: #ffffff;
+    color: #202122;
+    direction: ltr;
+
+}
+.footer{
+    direction: ltr;
+    margin-top: 0;
+    margin-left: 10em;
+}
+@media screen and (min-width: 982px){
+    .content{
+        padding: 1.25em, 1.5em, 1.5em, 1.5em;
+        margin-left: 11em;
+    }
+    .footer{
+        margin-left: 11em;
+        padding: 1.25em;
+    }
+}
